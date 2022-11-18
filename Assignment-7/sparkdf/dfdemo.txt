@@ -1,0 +1,16 @@
+Demo Instructions
+
+0) Use scp to copy sparkdf.zip to your EMR master node
+1) Expand the zip file using:
+       unzip sparkedf.zip
+2) cd to the Linux directory /home/hadoop/sparkdf
+3) Copy the files (using "hadoop fs ...") people.csv, peopleh.csv, people.txt and people.json into the HDFS directory /user/hadoop
+4) Start pyspark
+5) Execute spark1.py from within pyspark using:
+     exec(open("/home/hadoop/sparkdf/spark1.py").read())
+6) Do the same for spark2.py, spark2.py, spark2s.py, spark3.py, spark3s.py, spark4.py, spark4s.py
+
+Note the demo file spark2s.py fails. Why?
+
+
+
