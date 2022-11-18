@@ -1,0 +1,17 @@
+Instructions for this demo...
+
+
+
+0) Use scp to copy pydemo.zip to your EMR master node
+1) Expand the zip file using:
+       unzip pydemo.zip
+2) cd to the Linux directory /home/hadoop/pydemo
+3) First copy (using "hadoop fs ...") the files cs595doc2.txt and twinkle.txt to HDFS into the directory /user/hadoop
+4) Now start pyspark
+5) Execute test.py from within pyspark using:
+       exec(open("/home/hadoop/pydemo/test.py").read())
+6) Do the same for test2.py, test3.py, test4.py, testt.py and twinkle1.py
+
+
+
+

@@ -1,0 +1,3 @@
+this is a test of the spark rdd
+it is a test of pyspark as well
+
